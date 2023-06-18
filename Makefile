@@ -23,7 +23,7 @@ TWEAK_NAME = @@PROJECTNAME@@
 
 @@PROJECTNAME@@_CFLAGS = -fobjc-arc
 
-@@PROJECTNAME@@_FILES = Tweak.x $(MEM_SRC) 
+@@PROJECTNAME@@_FILES = Tweak.m $(MEM_SRC) 
 
 @@PROJECTNAME@@_LIBRARIES += substrate
 
